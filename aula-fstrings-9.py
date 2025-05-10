@@ -1,0 +1,1 @@
+#:.xf -->formata os numeros que vem depois do ponto, sendo x o numero de casas decimais que voce quer.
