@@ -17,10 +17,10 @@ try:
         print(f'{hora_int}:{minutos_int} esta a tarde! ou seja...')
         time.sleep(1)
         print('Boa tarde campeao!!!')
-    if hora_int > 17 and hora_int <= 24:
+    if hora_int > 17 and hora_int < 24:
         print(f'{hora_int}:{minutos_int} eh noite! ou seja...')
         time.sleep(1)
-        print('Boa tarde campeao!!!')
+        print('Boa noite campeao!!!')
     if hora_int >= 25:
         print('Isso nem horario eh!')
 except ValueError:
